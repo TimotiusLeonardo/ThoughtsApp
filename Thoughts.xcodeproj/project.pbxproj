@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		FF38A1FD26BA49B800B802EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A1FC26BA49B800B802EB /* AppDelegate.swift */; };
 		FF38A1FF26BA49B800B802EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A1FE26BA49B800B802EB /* SceneDelegate.swift */; };
-		FF38A20126BA49B800B802EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A20026BA49B800B802EB /* ViewController.swift */; };
 		FF38A20626BA49BA00B802EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF38A20526BA49BA00B802EB /* Assets.xcassets */; };
 		FF38A20926BA49BA00B802EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF38A20726BA49BA00B802EB /* LaunchScreen.storyboard */; };
 		FF38A21426BA49BB00B802EB /* ThoughtsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A21326BA49BB00B802EB /* ThoughtsTests.swift */; };
 		FF38A21F26BA49BB00B802EB /* ThoughtsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A21E26BA49BB00B802EB /* ThoughtsUITests.swift */; };
+		FF38A23826BA646500B802EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A23726BA646500B802EB /* HomeViewController.swift */; };
+		FF38A23A26BA647500B802EB /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A23926BA647500B802EB /* HomePresenter.swift */; };
+		FF38A23C26BA647F00B802EB /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A23B26BA647F00B802EB /* HomeRouter.swift */; };
+		FF38A23E26BA6FE400B802EB /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A23D26BA6FE400B802EB /* DatabaseManager.swift */; };
+		FF38A24026BA700100B802EB /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A23F26BA700100B802EB /* AuthManager.swift */; };
+		FF38A24226BA700900B802EB /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A24126BA700900B802EB /* StorageManager.swift */; };
+		FF38A24626BA732100B802EB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A24526BA732100B802EB /* TabBarViewController.swift */; };
+		FF38A24826BA733B00B802EB /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A24726BA733B00B802EB /* TabBarRouter.swift */; };
+		FF38A24A26BA734300B802EB /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A24926BA734300B802EB /* TabBarPresenter.swift */; };
+		FF38A24C26BAE5D800B802EB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A24B26BAE5D800B802EB /* ProfileViewController.swift */; };
+		FF38A24E26BAE5EA00B802EB /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A24D26BAE5EA00B802EB /* ProfilePresenter.swift */; };
+		FF38A25026BAE5F600B802EB /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A24F26BAE5F600B802EB /* ProfileRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +48,6 @@
 		FF38A1F926BA49B800B802EB /* Thoughts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thoughts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF38A1FC26BA49B800B802EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF38A1FE26BA49B800B802EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF38A20026BA49B800B802EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF38A20526BA49BA00B802EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF38A20826BA49BA00B802EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF38A20A26BA49BA00B802EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +57,18 @@
 		FF38A21A26BA49BB00B802EB /* ThoughtsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThoughtsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF38A21E26BA49BB00B802EB /* ThoughtsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtsUITests.swift; sourceTree = "<group>"; };
 		FF38A22026BA49BB00B802EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF38A23726BA646500B802EB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FF38A23926BA647500B802EB /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		FF38A23B26BA647F00B802EB /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		FF38A23D26BA6FE400B802EB /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		FF38A23F26BA700100B802EB /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		FF38A24126BA700900B802EB /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		FF38A24526BA732100B802EB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		FF38A24726BA733B00B802EB /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		FF38A24926BA734300B802EB /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
+		FF38A24B26BAE5D800B802EB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FF38A24D26BAE5EA00B802EB /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		FF38A24F26BAE5F600B802EB /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +119,10 @@
 		FF38A1FB26BA49B800B802EB /* Thoughts */ = {
 			isa = PBXGroup;
 			children = (
-				FF38A1FC26BA49B800B802EB /* AppDelegate.swift */,
-				FF38A1FE26BA49B800B802EB /* SceneDelegate.swift */,
-				FF38A20026BA49B800B802EB /* ViewController.swift */,
+				FF38A22F26BA5DDC00B802EB /* Others */,
+				FF38A22E26BA5DD700B802EB /* Managers */,
+				FF38A22D26BA5DD100B802EB /* Models */,
+				FF38A22C26BA5DC500B802EB /* Modules */,
 				FF38A20526BA49BA00B802EB /* Assets.xcassets */,
 				FF38A20726BA49BA00B802EB /* LaunchScreen.storyboard */,
 				FF38A20A26BA49BA00B802EB /* Info.plist */,
@@ -123,6 +146,104 @@
 				FF38A22026BA49BB00B802EB /* Info.plist */,
 			);
 			path = ThoughtsUITests;
+			sourceTree = "<group>";
+		};
+		FF38A22C26BA5DC500B802EB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FF38A23626BA643700B802EB /* CreatePostModule */,
+				FF38A23526BA642F00B802EB /* ViewPostModule */,
+				FF38A23426BA641D00B802EB /* SignupModule */,
+				FF38A23326BA641400B802EB /* SigninModule */,
+				FF38A23226BA640C00B802EB /* TabBarModule */,
+				FF38A23126BA63FE00B802EB /* ProfileModule */,
+				FF38A23026BA63E900B802EB /* HomeModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FF38A22D26BA5DD100B802EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF38A22E26BA5DD700B802EB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FF38A23D26BA6FE400B802EB /* DatabaseManager.swift */,
+				FF38A23F26BA700100B802EB /* AuthManager.swift */,
+				FF38A24126BA700900B802EB /* StorageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FF38A22F26BA5DDC00B802EB /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FF38A1FC26BA49B800B802EB /* AppDelegate.swift */,
+				FF38A1FE26BA49B800B802EB /* SceneDelegate.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		FF38A23026BA63E900B802EB /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				FF38A23726BA646500B802EB /* HomeViewController.swift */,
+				FF38A23926BA647500B802EB /* HomePresenter.swift */,
+				FF38A23B26BA647F00B802EB /* HomeRouter.swift */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		FF38A23126BA63FE00B802EB /* ProfileModule */ = {
+			isa = PBXGroup;
+			children = (
+				FF38A24B26BAE5D800B802EB /* ProfileViewController.swift */,
+				FF38A24D26BAE5EA00B802EB /* ProfilePresenter.swift */,
+				FF38A24F26BAE5F600B802EB /* ProfileRouter.swift */,
+			);
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		FF38A23226BA640C00B802EB /* TabBarModule */ = {
+			isa = PBXGroup;
+			children = (
+				FF38A24526BA732100B802EB /* TabBarViewController.swift */,
+				FF38A24726BA733B00B802EB /* TabBarRouter.swift */,
+				FF38A24926BA734300B802EB /* TabBarPresenter.swift */,
+			);
+			path = TabBarModule;
+			sourceTree = "<group>";
+		};
+		FF38A23326BA641400B802EB /* SigninModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SigninModule;
+			sourceTree = "<group>";
+		};
+		FF38A23426BA641D00B802EB /* SignupModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignupModule;
+			sourceTree = "<group>";
+		};
+		FF38A23526BA642F00B802EB /* ViewPostModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewPostModule;
+			sourceTree = "<group>";
+		};
+		FF38A23626BA643700B802EB /* CreatePostModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CreatePostModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +375,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF38A20126BA49B800B802EB /* ViewController.swift in Sources */,
+				FF38A23C26BA647F00B802EB /* HomeRouter.swift in Sources */,
+				FF38A24026BA700100B802EB /* AuthManager.swift in Sources */,
 				FF38A1FD26BA49B800B802EB /* AppDelegate.swift in Sources */,
+				FF38A23E26BA6FE400B802EB /* DatabaseManager.swift in Sources */,
+				FF38A24A26BA734300B802EB /* TabBarPresenter.swift in Sources */,
+				FF38A24826BA733B00B802EB /* TabBarRouter.swift in Sources */,
+				FF38A25026BAE5F600B802EB /* ProfileRouter.swift in Sources */,
+				FF38A24C26BAE5D800B802EB /* ProfileViewController.swift in Sources */,
+				FF38A24626BA732100B802EB /* TabBarViewController.swift in Sources */,
 				FF38A1FF26BA49B800B802EB /* SceneDelegate.swift in Sources */,
+				FF38A23A26BA647500B802EB /* HomePresenter.swift in Sources */,
+				FF38A23826BA646500B802EB /* HomeViewController.swift in Sources */,
+				FF38A24226BA700900B802EB /* StorageManager.swift in Sources */,
+				FF38A24E26BAE5EA00B802EB /* ProfilePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

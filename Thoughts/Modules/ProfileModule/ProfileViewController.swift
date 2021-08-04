@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProfileViewController.swift
 //  Thoughts
 //
 //  Created by Timotius Leonardo Lianoto on 04/08/21.
@@ -7,13 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol ProfileViewControllerDelegate: AnyObject {
+    
+}
+
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        
+        
     }
 
-
 }
-
