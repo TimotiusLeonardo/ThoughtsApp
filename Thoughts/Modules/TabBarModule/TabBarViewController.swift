@@ -36,6 +36,9 @@ class TabBarViewController: UITabBarController, TabBarViewControllerDelegate {
         nav1.navigationBar.prefersLargeTitles = true
         nav2.navigationBar.prefersLargeTitles = true
         
+        nav1.tabBarItem = UITabBarItem(title: home.title, image: UIImage(systemName: "house"), tag: 1)
+        nav2.tabBarItem = UITabBarItem(title: profile.title, image: UIImage(systemName: "person.circle"), tag: 2)
+        
         setViewControllers([nav1, nav2], animated: true)
     }
     /*

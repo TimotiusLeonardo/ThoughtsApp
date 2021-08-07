@@ -18,7 +18,7 @@ class HomeViewController: UIViewController, HomeViewControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .blue
+        view.backgroundColor = .systemBackground
     }
     
 
