@@ -20,6 +20,7 @@ platform :ios do
   lane :tests do
     run_tests(workspace: "Thoughts.xcworkspace",
 		scheme: "Thoughts", 
-		devices: ["iPhone 6s"])
+		device: "iPhone 6",
+		code_coverage: true)
   end
 end

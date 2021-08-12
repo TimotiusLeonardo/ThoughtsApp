@@ -13,7 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Install Pods
+    - name: Install pods
+      run: pod install
+    - name: Install fastlane
       run: bundle install
     - name: Build and Run tests
       run: bundle exec fastlane tests
