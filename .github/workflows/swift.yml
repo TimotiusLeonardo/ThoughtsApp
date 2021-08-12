@@ -17,5 +17,8 @@ jobs:
       run: pod install
     - name: Install fastlane
       run: bundle install
+    - name: Install Simulator
+      run: gem install xcode-install
+      run: xcversion simulators --install="13.2"
     - name: Build and Run tests
       run: bundle exec fastlane tests
