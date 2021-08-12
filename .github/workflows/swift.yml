@@ -18,6 +18,6 @@ jobs:
     - name: Install fastlane
       run: bundle install
     - name: Install Simulator
-      run: xcversion simulators --install="13.2"
+      run: xcversion simulators --install="13.5"
     - name: Build and Run tests
       run: bundle exec fastlane tests
