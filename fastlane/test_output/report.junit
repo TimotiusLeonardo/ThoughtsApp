@@ -2,10 +2,10 @@
 <testsuites name='ThoughtsUITests.xctest' tests='4' failures='0'>
   <testsuite name='ThoughtsTests.ThoughtsTests' tests='2' failures='0'>
     <testcase classname='ThoughtsTests.ThoughtsTests' name='testExample' time='0.004'/>
-    <testcase classname='ThoughtsTests.ThoughtsTests' name='testPerformanceExample' time='0.546'/>
+    <testcase classname='ThoughtsTests.ThoughtsTests' name='testPerformanceExample' time='0.525'/>
   </testsuite>
   <testsuite name='ThoughtsUITests.ThoughtsUITests' tests='2' failures='0'>
-    <testcase classname='ThoughtsUITests.ThoughtsUITests' name='testExample' time='2.025'/>
-    <testcase classname='ThoughtsUITests.ThoughtsUITests' name='testLaunchPerformance' time='78.614'/>
+    <testcase classname='ThoughtsUITests.ThoughtsUITests' name='testExample' time='1.870'/>
+    <testcase classname='ThoughtsUITests.ThoughtsUITests' name='testLaunchPerformance' time='78.697'/>
   </testsuite>
 </testsuites>
