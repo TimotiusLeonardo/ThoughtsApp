@@ -17,12 +17,9 @@ jobs:
       run: pod install
     - name: Install fastlane
       run: bundle install
-    - name: Prepare iOS 12 simulator
-      run: |
-    sudo mkdir -p /Library/Developer/CoreSimulator/Profiles/Runtimes
-    sudo ln -s /Applications/Xcode_10.3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS\ 12.4.simruntime
-    xcrun simctl list runtimes
-    xcrun simctl create custom-test-device "iPad Pro (9.7-inch)" "com.apple.CoreSimulator.SimRuntime.iOS-12-4"
-    xcrun simctl list devices 12.4
+    - name: Force xcode 11
+      run: sudo xcode-select -switch /Applications/Xcode_11.3.app
+    - name: iPhone 11 Test
+      run: xcodebuild test -scheme affirm-me-test -workspace affirm-me.xcworkspace -destination ‘platform=iOS Simulator,name=iPhone 11,OS=13.3’
     - name: Build and Run tests
       run: bundle exec fastlane tests
