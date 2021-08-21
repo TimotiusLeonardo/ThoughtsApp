@@ -13,11 +13,12 @@ protocol TabBarRouterDelegate: AnyObject {
 }
 
 class TabBarRouter: TabBarRouterDelegate {
-    func createModule() -> UIViewController {
+    static func createModule() -> UIViewController {
         let view = TabBarViewController()
         let presenter = TabBarPresenter()
+        let router = TabBarRouter()
         
-        presenter.router = self
+        presenter.router = router
         presenter.view = view
         view.presenter = presenter
         

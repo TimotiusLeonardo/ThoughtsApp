@@ -26,6 +26,15 @@
 		FF38A24C26BAE5D800B802EB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A24B26BAE5D800B802EB /* ProfileViewController.swift */; };
 		FF38A24E26BAE5EA00B802EB /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A24D26BAE5EA00B802EB /* ProfilePresenter.swift */; };
 		FF38A25026BAE5F600B802EB /* ProfileRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38A24F26BAE5F600B802EB /* ProfileRouter.swift */; };
+		FF72B42226C62C21006755F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF72B42126C62C21006755F7 /* GoogleService-Info.plist */; };
+		FFCB831026D143BB00DD8851 /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB830F26D143BB00DD8851 /* BlogPost.swift */; };
+		FFCB831226D143C700DD8851 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB831126D143C700DD8851 /* User.swift */; };
+		FFCB831426D146E100DD8851 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB831326D146E100DD8851 /* SignupViewController.swift */; };
+		FFCB831626D146FC00DD8851 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB831526D146FC00DD8851 /* SigninViewController.swift */; };
+		FFCB831826D1470B00DD8851 /* SigninPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB831726D1470B00DD8851 /* SigninPresenter.swift */; };
+		FFCB831A26D1471400DD8851 /* SigninRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB831926D1471400DD8851 /* SigninRouter.swift */; };
+		FFCB831C26D1472000DD8851 /* SignupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB831B26D1472000DD8851 /* SignupPresenter.swift */; };
+		FFCB831E26D1472C00DD8851 /* SignupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCB831D26D1472C00DD8851 /* SignupRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +82,15 @@
 		FF38A24B26BAE5D800B802EB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FF38A24D26BAE5EA00B802EB /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
 		FF38A24F26BAE5F600B802EB /* ProfileRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRouter.swift; sourceTree = "<group>"; };
+		FF72B42126C62C21006755F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFCB830F26D143BB00DD8851 /* BlogPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
+		FFCB831126D143C700DD8851 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FFCB831326D146E100DD8851 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		FFCB831526D146FC00DD8851 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		FFCB831726D1470B00DD8851 /* SigninPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninPresenter.swift; sourceTree = "<group>"; };
+		FFCB831926D1471400DD8851 /* SigninRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninRouter.swift; sourceTree = "<group>"; };
+		FFCB831B26D1472000DD8851 /* SignupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPresenter.swift; sourceTree = "<group>"; };
+		FFCB831D26D1472C00DD8851 /* SignupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +206,8 @@
 		FF38A22D26BA5DD100B802EB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FFCB830F26D143BB00DD8851 /* BlogPost.swift */,
+				FFCB831126D143C700DD8851 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -205,6 +225,7 @@
 		FF38A22F26BA5DDC00B802EB /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				FF72B42126C62C21006755F7 /* GoogleService-Info.plist */,
 				FF38A1FC26BA49B800B802EB /* AppDelegate.swift */,
 				FF38A1FE26BA49B800B802EB /* SceneDelegate.swift */,
 			);
@@ -244,6 +265,9 @@
 		FF38A23326BA641400B802EB /* SigninModule */ = {
 			isa = PBXGroup;
 			children = (
+				FFCB831526D146FC00DD8851 /* SigninViewController.swift */,
+				FFCB831726D1470B00DD8851 /* SigninPresenter.swift */,
+				FFCB831926D1471400DD8851 /* SigninRouter.swift */,
 			);
 			path = SigninModule;
 			sourceTree = "<group>";
@@ -251,6 +275,9 @@
 		FF38A23426BA641D00B802EB /* SignupModule */ = {
 			isa = PBXGroup;
 			children = (
+				FFCB831326D146E100DD8851 /* SignupViewController.swift */,
+				FFCB831B26D1472000DD8851 /* SignupPresenter.swift */,
+				FFCB831D26D1472C00DD8851 /* SignupRouter.swift */,
 			);
 			path = SignupModule;
 			sourceTree = "<group>";
@@ -384,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF38A20926BA49BA00B802EB /* LaunchScreen.storyboard in Resources */,
+				FF72B42226C62C21006755F7 /* GoogleService-Info.plist in Resources */,
 				FF38A20626BA49BA00B802EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,19 +479,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCB831026D143BB00DD8851 /* BlogPost.swift in Sources */,
 				FF38A23C26BA647F00B802EB /* HomeRouter.swift in Sources */,
+				FFCB831826D1470B00DD8851 /* SigninPresenter.swift in Sources */,
 				FF38A24026BA700100B802EB /* AuthManager.swift in Sources */,
 				FF38A1FD26BA49B800B802EB /* AppDelegate.swift in Sources */,
+				FFCB831226D143C700DD8851 /* User.swift in Sources */,
 				FF38A23E26BA6FE400B802EB /* DatabaseManager.swift in Sources */,
 				FF38A24A26BA734300B802EB /* TabBarPresenter.swift in Sources */,
 				FF38A24826BA733B00B802EB /* TabBarRouter.swift in Sources */,
 				FF38A25026BAE5F600B802EB /* ProfileRouter.swift in Sources */,
+				FFCB831E26D1472C00DD8851 /* SignupRouter.swift in Sources */,
+				FFCB831A26D1471400DD8851 /* SigninRouter.swift in Sources */,
 				FF38A24C26BAE5D800B802EB /* ProfileViewController.swift in Sources */,
 				FF38A24626BA732100B802EB /* TabBarViewController.swift in Sources */,
+				FFCB831C26D1472000DD8851 /* SignupPresenter.swift in Sources */,
+				FFCB831426D146E100DD8851 /* SignupViewController.swift in Sources */,
 				FF38A1FF26BA49B800B802EB /* SceneDelegate.swift in Sources */,
 				FF38A23A26BA647500B802EB /* HomePresenter.swift in Sources */,
 				FF38A23826BA646500B802EB /* HomeViewController.swift in Sources */,
 				FF38A24226BA700900B802EB /* StorageManager.swift in Sources */,
+				FFCB831626D146FC00DD8851 /* SigninViewController.swift in Sources */,
 				FF38A24E26BAE5EA00B802EB /* ProfilePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
