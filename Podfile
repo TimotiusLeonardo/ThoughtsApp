@@ -12,6 +12,14 @@ target 'Thoughts' do
   pod 'Firebase/Auth'
   pod 'Purchases'
 
+ target 'ThoughtsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+ target 'IDN TimesUITests' do
+    # Pods for testing
+  end
 
 end
 
