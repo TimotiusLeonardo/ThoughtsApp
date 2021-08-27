@@ -17,7 +17,7 @@ target 'Thoughts' do
     # Pods for testing
   end
 
- target 'IDN TimesUITests' do
+ target 'ThoughtsUITests' do
     # Pods for testing
   end
 
